@@ -340,3 +340,9 @@ i {
 #nav2{
   margin-right:100px;
 }
+.email-link {
+ 
+  color: #000;
+  cursor: pointer;
+  pointer-events: auto;
+}
