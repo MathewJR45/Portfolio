@@ -116,7 +116,9 @@ body {
 .btn-txt {
   z-index: 1;
   font-weight: 400;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .type1::after {
@@ -132,6 +134,7 @@ body {
   height: 10px;
   width: 10px;
   z-index: -1;
+  
 }
 
 .button:hover {
@@ -143,12 +146,13 @@ body {
 .type1:hover::after {
   visibility: visible;
   transform: scale(100) translateX(2px);
+  
 }
 
 .icon i {
   margin-top: 25px;
   font-size: 32px;
-
+ color:black
 }
 
 .down {
